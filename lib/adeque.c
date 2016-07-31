@@ -275,5 +275,3 @@ void adeque_free(ArrayDeque* q)
 	free(q->data);
 	free(q);
 }
-
-#endif /* _ARRAY_DEQUE */

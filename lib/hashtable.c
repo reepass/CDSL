@@ -305,8 +305,6 @@ void hashtable_display(Hashtable* h, char* (*toString)(void* item))
 	int i;
 
 	char indexformat[10];
-	sprintf(indexformat, "%s%dd)", "%", (int)log(h->size));
-
 	for (i = 0; i < h->capacity; i++)
 	{
 		if (h->entries[i] == NULL)
